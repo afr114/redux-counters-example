@@ -1,0 +1,40 @@
+html,
+body{
+  height: 100%;
+}
+
+body{
+  font: 20px sans-serif;
+  background: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  margin-bottom: 4rem;
+}
+
+.redux{
+  color: white;
+  background: black;
+  text-align: center;
+  padding: .1em;
+}
+
+.counter-value {
+  font-size: 9rem;
+}
+
+.counter-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.counter-button {
+  width: 150px;
+  padding: 0.6rem;
+}
